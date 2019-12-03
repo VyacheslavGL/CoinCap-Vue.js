@@ -5,6 +5,7 @@ import ru from 'vuetify/es5/locale/ru';
 Vue.use(Vuetify);
 
 export default new Vuetify({
+  treeShake: true,
   theme: {
     themes: {
 // #ee44aa
