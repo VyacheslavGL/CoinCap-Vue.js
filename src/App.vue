@@ -22,22 +22,16 @@
     <div class="block"></div>
 
     <v-content>
-      <app-coins></app-coins>
+      <router-view/>
     </v-content>
+
   </v-app>
 </template>
 
 <script>
 
-import Coins from './components/Coins';
-
-
 export default {
   name: 'App',
-
-  components: {
-    appCoins: Coins,
-  }
 
 };
 </script>
