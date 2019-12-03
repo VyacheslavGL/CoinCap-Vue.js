@@ -164,6 +164,7 @@
                 });
                 // console.info('Любишь заглядывать в консоль? ахаха прекрати.');
                 // console.log('%c ', 'font-size:470px; background:url(https://pbs.twimg.com/profile_images/997741699060322306/IlS0xVcD_400x400.jpg) no-repeat;');
+
                 return this.data_coins_from_api
 
             } else {
