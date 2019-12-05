@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 //стандартный модуль ноды для работы с путями файлов
 const path = require('path');
@@ -22,4 +23,5 @@ app.get('*', (req, res) => res.sendFile(path.join(__dirname, 'dist/index.html'))
 app.listen(port, (err)=> {
     if(err) return console.error(err);
     return console.log(`Сервер успешно запущен на порту ${port}`);
+
 });
