@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 'use strict';
 //стандартный модуль ноды для работы с путями файлов
 const path = require('path');
